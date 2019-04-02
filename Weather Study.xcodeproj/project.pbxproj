@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		6A90FFB02253BF4A0057F96C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A90FFAF2253BF4A0057F96C /* main.c */; };
+		6A90FFB82253C04E0057F96C /* import.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A90FFB72253C04E0057F96C /* import.c */; };
+		6A90FFBB2253DCAE0057F96C /* export.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A90FFBA2253DCAE0057F96C /* export.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,13 @@
 
 /* Begin PBXFileReference section */
 		6A90FFAC2253BF4A0057F96C /* Weather Study */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Weather Study"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6A90FFAF2253BF4A0057F96C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		6A90FFAF2253BF4A0057F96C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = main.c; path = "Weather Study/main.c"; sourceTree = SOURCE_ROOT; usesTabs = 0; };
+		6A90FFB62253C04E0057F96C /* import.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = import.h; sourceTree = "<group>"; };
+		6A90FFB72253C04E0057F96C /* import.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = import.c; sourceTree = "<group>"; };
+		6A90FFB92253DCAE0057F96C /* export.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = export.h; sourceTree = "<group>"; };
+		6A90FFBA2253DCAE0057F96C /* export.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = export.c; sourceTree = "<group>"; };
+		6A90FFBC2253E25D0057F96C /* bla.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = bla.txt; path = "Weather Study/bla.txt"; sourceTree = SOURCE_ROOT; };
+		6A90FFBD2253E7670057F96C /* blo.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = blo.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,12 @@
 			isa = PBXGroup;
 			children = (
 				6A90FFAF2253BF4A0057F96C /* main.c */,
+				6A90FFB62253C04E0057F96C /* import.h */,
+				6A90FFB72253C04E0057F96C /* import.c */,
+				6A90FFB92253DCAE0057F96C /* export.h */,
+				6A90FFBA2253DCAE0057F96C /* export.c */,
+				6A90FFBC2253E25D0057F96C /* bla.txt */,
+				6A90FFBD2253E7670057F96C /* blo.txt */,
 			);
 			path = "Weather Study";
 			sourceTree = "<group>";
@@ -118,6 +132,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A90FFBB2253DCAE0057F96C /* export.c in Sources */,
+				6A90FFB82253C04E0057F96C /* import.c in Sources */,
 				6A90FFB02253BF4A0057F96C /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
