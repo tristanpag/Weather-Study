@@ -10,6 +10,9 @@
 		6A90FFB02253BF4A0057F96C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A90FFAF2253BF4A0057F96C /* main.c */; };
 		6A90FFB82253C04E0057F96C /* import.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A90FFB72253C04E0057F96C /* import.c */; };
 		6A90FFBB2253DCAE0057F96C /* export.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A90FFBA2253DCAE0057F96C /* export.c */; };
+		6AA078012253F62900CF1842 /* lat.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA078002253F62900CF1842 /* lat.m */; };
+		6AA078032253F63500CF1842 /* lon.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA078022253F63500CF1842 /* lon.m */; };
+		6AA078052253F63F00CF1842 /* value.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA078042253F63F00CF1842 /* value.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +36,10 @@
 		6A90FFBA2253DCAE0057F96C /* export.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = export.c; sourceTree = "<group>"; };
 		6A90FFBC2253E25D0057F96C /* bla.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = bla.txt; path = "Weather Study/bla.txt"; sourceTree = SOURCE_ROOT; };
 		6A90FFBD2253E7670057F96C /* blo.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = blo.txt; sourceTree = "<group>"; };
+		6AA077FF2253F61A00CF1842 /* TMP_10000.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = TMP_10000.txt; sourceTree = "<group>"; };
+		6AA078002253F62900CF1842 /* lat.m */ = {isa = PBXFileReference; explicitFileType = text; path = lat.m; sourceTree = "<group>"; };
+		6AA078022253F63500CF1842 /* lon.m */ = {isa = PBXFileReference; explicitFileType = text; path = lon.m; sourceTree = "<group>"; };
+		6AA078042253F63F00CF1842 /* value.m */ = {isa = PBXFileReference; explicitFileType = text; path = value.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +72,7 @@
 		6A90FFAE2253BF4A0057F96C /* Weather Study */ = {
 			isa = PBXGroup;
 			children = (
+				6AA077FF2253F61A00CF1842 /* TMP_10000.txt */,
 				6A90FFAF2253BF4A0057F96C /* main.c */,
 				6A90FFB62253C04E0057F96C /* import.h */,
 				6A90FFB72253C04E0057F96C /* import.c */,
@@ -72,6 +80,9 @@
 				6A90FFBA2253DCAE0057F96C /* export.c */,
 				6A90FFBC2253E25D0057F96C /* bla.txt */,
 				6A90FFBD2253E7670057F96C /* blo.txt */,
+				6AA078002253F62900CF1842 /* lat.m */,
+				6AA078022253F63500CF1842 /* lon.m */,
+				6AA078042253F63F00CF1842 /* value.m */,
 			);
 			path = "Weather Study";
 			sourceTree = "<group>";
@@ -133,6 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A90FFBB2253DCAE0057F96C /* export.c in Sources */,
+				6AA078032253F63500CF1842 /* lon.m in Sources */,
+				6AA078012253F62900CF1842 /* lat.m in Sources */,
+				6AA078052253F63F00CF1842 /* value.m in Sources */,
 				6A90FFB82253C04E0057F96C /* import.c in Sources */,
 				6A90FFB02253BF4A0057F96C /* main.c in Sources */,
 			);

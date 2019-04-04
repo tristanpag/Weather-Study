@@ -15,9 +15,9 @@ void initOutFiles(FILE *file_lat, FILE *file_lon, FILE *file_value, char* valueN
 }
 
 void finishOutFiles(FILE *file_lat, FILE *file_lon, FILE *file_value) {
-    fprintf(file_lat, " ]");
-    fprintf(file_lon, " ]");
-    fprintf(file_value, " ]");
+    fprintf(file_lat, " ];");
+    fprintf(file_lon, " ];");
+    fprintf(file_value, " ];");
     
     fclose(file_lat);
     fclose(file_lon);
