@@ -13,7 +13,6 @@
 		6A90FFBB2253DCAE0057F96C /* export.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A90FFBA2253DCAE0057F96C /* export.c */; };
 		6AA078012253F62900CF1842 /* lat.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA078002253F62900CF1842 /* lat.m */; };
 		6AA078032253F63500CF1842 /* lon.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA078022253F63500CF1842 /* lon.m */; };
-		6AA078052253F63F00CF1842 /* value.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA078042253F63F00CF1842 /* value.m */; };
 		6AC13E3922567A340087C663 /* interpol.c in Sources */ = {isa = PBXBuildFile; fileRef = 6AC13E3822567A340087C663 /* interpol.c */; };
 /* End PBXBuildFile section */
 
@@ -39,10 +38,8 @@
 		6A90FFB72253C04E0057F96C /* import.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = import.c; sourceTree = "<group>"; };
 		6A90FFB92253DCAE0057F96C /* export.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = export.h; sourceTree = "<group>"; };
 		6A90FFBA2253DCAE0057F96C /* export.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = export.c; sourceTree = "<group>"; };
-		6AA077FF2253F61A00CF1842 /* TMP_10000.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = TMP_10000.txt; sourceTree = "<group>"; };
 		6AA078002253F62900CF1842 /* lat.m */ = {isa = PBXFileReference; explicitFileType = text; path = lat.m; sourceTree = "<group>"; };
 		6AA078022253F63500CF1842 /* lon.m */ = {isa = PBXFileReference; explicitFileType = text; path = lon.m; sourceTree = "<group>"; };
-		6AA078042253F63F00CF1842 /* value.m */ = {isa = PBXFileReference; explicitFileType = text; path = value.m; sourceTree = "<group>"; };
 		6AC13E3722567A340087C663 /* interpol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = interpol.h; sourceTree = "<group>"; };
 		6AC13E3822567A340087C663 /* interpol.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = interpol.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +74,6 @@
 		6A90FFAE2253BF4A0057F96C /* Weather Study */ = {
 			isa = PBXGroup;
 			children = (
-				6AA077FF2253F61A00CF1842 /* TMP_10000.txt */,
 				6A90FFAF2253BF4A0057F96C /* main.c */,
 				6A90FFB62253C04E0057F96C /* import.h */,
 				6A90FFB72253C04E0057F96C /* import.c */,
@@ -85,7 +81,6 @@
 				6A90FFBA2253DCAE0057F96C /* export.c */,
 				6AA078002253F62900CF1842 /* lat.m */,
 				6AA078022253F63500CF1842 /* lon.m */,
-				6AA078042253F63F00CF1842 /* value.m */,
 				6AC13E3722567A340087C663 /* interpol.h */,
 				6AC13E3822567A340087C663 /* interpol.c */,
 				6A2F3D2B22568C040080DBB9 /* Tables.h */,
@@ -154,7 +149,6 @@
 				6A90FFBB2253DCAE0057F96C /* export.c in Sources */,
 				6AA078032253F63500CF1842 /* lon.m in Sources */,
 				6AA078012253F62900CF1842 /* lat.m in Sources */,
-				6AA078052253F63F00CF1842 /* value.m in Sources */,
 				6A2F3D2D22568C040080DBB9 /* Tables.c in Sources */,
 				6A90FFB82253C04E0057F96C /* import.c in Sources */,
 				6AC13E3922567A340087C663 /* interpol.c in Sources */,

@@ -14,4 +14,6 @@
 void initOutFiles(FILE *file_lat, FILE *file_lon, FILE *file_value, char* valueName);
 void finishOutFiles(FILE *file_lat, FILE *file_lon, FILE *file_value);
 
+void export(int nbGribFile, int preRange[], char valueType[], char valueInFileName[], char date[], double latitude);
+
 #endif /* export_h */
